@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="formStyle.css">
 <script src="confirmCheck.js"></script>
 </head>
 
 <body>
 
-<form id="signup" action="confirmation.php" onsubmit="return validateForm()" method="post">
-Username: <input type="text" name="username">
+<form name="signup" action="confirmation.php" onsubmit="return validateForm()" method="post">
+USERNAME:<br><input type="text" name="username">
 <br>
-Password: <input type="password" name="pass">
 <br>
-Confirm Password: <input type="password" name="passTwo">
+Password:<br><input type="password" name="pass">
 <br>
-E-mail: <input type="text" name="email">
 <br>
-<input type="submit" value="Submit">
+Confirm Password:<br><input type="password" name="passTwo">
+<br>
+<br>
+E-mail:<br><input type="text" name="email">
+<br>
+<br>
+<br>
+<center><input type="submit" value="Submit"></center>
 </form>
 
 </body>

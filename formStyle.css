@@ -1,0 +1,33 @@
+body {
+
+	margin:50px 0px;
+	padding:0px;
+	text-align:center;
+	
+}
+
+form {
+
+	width: 127px;
+	margin:0px auto;
+	padding: 30px;
+	border: solid 1px;
+	font-size: 11px;
+	text-align: left;
+	text-transform: uppercase;
+
+}
+
+#column {
+
+	width: 150px;
+
+}
+
+#columnn {
+
+	width: 150px;
+	margin-top: -74px;
+	margin-left: 150px;
+	
+}
